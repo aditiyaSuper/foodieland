@@ -1,0 +1,275 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url('../font/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../font/inter-OFL.txt') format('truetype');
+}
+
+
+.wreper {
+    position: relative;
+}
+
+.logo {
+    font-family: "Lobster";
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    margin-top: -36px;
+    margin-left: 390px;
+}
+
+
+.social_media {
+    float: right;
+    margin-left: 260px;
+}
+
+nav {
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    line-height: 19px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+
+}
+
+
+nav ul {
+    overflow: hidden;
+}
+
+
+nav ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    width: auto;
+    height: auto;
+    border-radius: 16px;
+    background-color: rgba(204, 38, 27, 0.1);
+}
+
+
+.conten {
+    position: relative;
+    
+}
+
+.kotak {
+    position: relative;
+    width: 620px;
+    height: 640px;
+    background-color: #E7FAFE;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 40px 0px 0px 40px;
+    z-index: 1;
+}
+
+
+.book {
+    width: 156px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.book img {
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+.book h3 {
+    float: left;
+    position: absolute;
+    top: -8px;
+    left: 40px;
+}
+
+.book h2 {
+    width: 520px;
+    height: 154px;
+    position: absolute;
+    top: 30px;
+    font-family: "Inter";
+    font-size: 60px;
+}
+
+.book p {
+    width: 520px;
+    height: 56px;
+    position: absolute;
+    top:220px;
+    line-height: 24px;
+}
+
+.time {
+    width: 139px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    position:absolute;
+    left: 50px;
+    top:380px;
+}
+
+
+.time ul li img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+}
+
+ .time ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: 50px;
+}
+
+
+.pisau {
+    width: 139px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    position:absolute;
+    left: 200px;
+    top:380px;
+}
+
+
+.pisau ul li img {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.pisau ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: 55px;
+}
+
+.foto ul li img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 520px;
+    left: 50px;
+}
+
+
+.foto ul li h3 {
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    top: 509px;
+    left: 120px;
+    
+}
+
+
+.foto ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    position: absolute;
+    top: 534px;
+    left: 120px;
+}
+
+
+.play {
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #000000;
+    position: absolute;
+    top: 516px;
+    left: 350px;
+}
+
+
+.play ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 9px;
+}
+
+
+.play ul li a img {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 130px;
+    top: 23px;
+}
+
+
+
+.wings {
+
+    width: 982px;
+    height: 640px;
+    margin-top: -640px;
+    margin-left: 700px;
+}
+
+
+.categori {
+    width: 238px;
+    height: 58px;
+    margin-top:162px;
+    margin-left: 80px;
+}
+
+.categori h2 {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: bold;
+}
